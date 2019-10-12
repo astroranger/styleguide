@@ -53,4 +53,4 @@ window.initStyleGuide = function(init) {
   pretty.src = 'https://cdn.rawgit.com/google/code-prettify/master/loader/' +
       'run_prettify.js';
   document.body.appendChild(pretty);
-}.bind(null, window.initStyleGuide);
+}.bind(null,window.initStyleGuide);
