@@ -39,7 +39,7 @@ window.initStyleGuide = function(init) {
   // Hoedown renders fenced code blocks incompatibly with what
   // prettify expects. As a result, prettify doesn't handle them
   // properly. Fix it by moving the code directly into the pre.
-  find('pre > code', function(code) {
+  find('pre > code',function(code) {
     var pre = code.parentElement;
     pre.className = code.className;
     pre.innerHTML = code.innerHTML;
